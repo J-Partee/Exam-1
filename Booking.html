@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>JP's Console Care</title>
+        <link rel="stylesheet" href="Booking.css">
+        <link rel="stylesheet" href="Home.css">
+
+    </head>
+    <body>
+    <header>
+        <h1>Booking <br>
+            JP’s Console Care</h1>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="Services.html">Services Offered</a>
+        
+    </nav>
+    </header>
+        <h2>What Services Do You Need?</h2>
+    <form action="ThankYou.html" method="get">    
+        <p>Your Name:
+ <input type="text" name="Your Name:" size="15" 
+maxlength="30" />
+ </p>
+    <fieldset>
+      <legend>Select Your Service:</legend>
+      <input type="checkbox" id="Repair" name="Service" value="Repair">
+      <label for="Repair">Repair - $50 - 250 (Based on type of repair needed)</label><br>
+
+      <input type="checkbox" id="BasicCleaning" name="Service" value="BasicCleaning">
+      <label for="BasicCleaning">Basic Cleaning - $50.00</label><br>
+
+      <input type="checkbox" id="caramel" name="Service" value="DeepCleaning">
+      <label for="DeepCleaning">Deep Cleaning - $150.00</label><br>
+
+    </fieldset><br>
+    
+     <fieldset>
+      <legend>Choose Payment Type:</legend>
+      <input type="radio" id="visa" name="payment" value="Visa" required>
+      <label for="visa">Visa</label><br>
+
+      <input type="radio" id="discover" name="payment" value="Discover">
+      <label for="discover">Discover</label><br>
+
+      <input type="radio" id="mastercard" name="payment" value="MasterCard">
+      <label for="mastercard">Master Card</label>
+    </fieldset><br>
+    
+        <button type="reset">Reset</button>
+        <button type="submit" >Submit</button>
+        
+        </form>    
+   
+
+    </body>
+</html>
